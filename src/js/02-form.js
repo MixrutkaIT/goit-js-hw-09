@@ -2,7 +2,7 @@ const LOCAL_KEY = 'feedback-form-state';
 
 const form = document.querySelector('.feedback-form');
 
-document.addEventListener('DOMContentLoaded', renderPage);
+document.addEventListener('DOMContentLoaded', renderringPage);
 
 form.addEventListener('submit', event => {
   event.preventDefault();
@@ -30,7 +30,7 @@ form.addEventListener('input', event => {
   localStorage.setItem(LOCAL_KEY, JSON.stringify(userData));
 });
 
-function renderPage() {
+function renderringPage() {
   const lsData = localStorage.getItem(LOCAL_KEY);
   if (lsData) {
     const userData = JSON.parse(lsData);
