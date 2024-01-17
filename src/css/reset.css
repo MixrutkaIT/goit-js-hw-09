@@ -31,5 +31,10 @@ button {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+}
+body {
+  padding: 0 16px;
+}
+.main-logo {
+  margin: 0 auto;
 }
